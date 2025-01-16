@@ -1,5 +1,5 @@
 import React, { useContext, useRef } from "react";
-import PostListProvider, { PostList } from "../store/post-list-store";
+import  { PostList } from "../store/post-list-store";
 
 function CreatePost() {
   const { addPost } = useContext(PostList);
